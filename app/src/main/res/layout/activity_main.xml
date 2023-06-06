@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back01"
     tools:context=".MainActivity">
 
     <TextView
@@ -25,6 +26,7 @@
     <ListView
         android:layout_width="325dp"
         android:layout_height="447dp"
+        android:id="@+id/listviewid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.651"
@@ -34,9 +36,11 @@
 
     <Button
         android:id="@+id/insertdataid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         android:text="Insert Data"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
         android:textStyle="bold"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
