@@ -1,8 +1,10 @@
 pluginManagement {
     repositories {
+
+        gradlePluginPortal()
         google()
         mavenCentral()
-        gradlePluginPortal()
+
     }
 }
 dependencyResolutionManagement {
@@ -12,5 +14,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Cardiac Recorder App"
+
+rootProject.name = "Cardiac_Recorder_App"
+
 include ':app'
